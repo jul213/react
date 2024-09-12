@@ -1,3 +1,3 @@
 import {useState} from  "react"
 
-const [fact, setFact] = useState("esto biene de modo default")
+const [fact, setFact] = useState()
