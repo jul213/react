@@ -1,2 +1,2 @@
 # react
-repositorio de practica y configuraccion inicial de react
+repositorio de practica y configuraccion inicial de react entrenamiento
