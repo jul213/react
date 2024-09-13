@@ -1,4 +1,4 @@
-npm install standard -D EN CMD
+npm install standard -D EN CMD // en consola
 ----------------------------------
 
 en el package.json "eslintConfig": {
