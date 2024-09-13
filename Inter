@@ -1,5 +1,5 @@
 npm install standard -D EN CMD
----------------------------------
+----------------------------------
 
 en el package.json "eslintConfig": {
 "extends": "./node_modules/standard/eslintrc.json"
