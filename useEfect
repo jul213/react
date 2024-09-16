@@ -2,4 +2,4 @@ import {useEfect} from "react"
 
 useEfect(() => {
  console.log("estoy usando un efecto")
-}, []) 
+}, []) // dependencias ninguna
