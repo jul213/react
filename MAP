@@ -1,3 +1,5 @@
 // mapping en js
 
-movies.map(() = 
+movies.map(() => {
+contenido del map
+
