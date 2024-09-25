@@ -1,5 +1,5 @@
 // mapping en js
-
+const movies = hola //aqui seria algo para recorrer como una lista
 movies.map(() => {
 contenido del map
 }
