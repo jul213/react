@@ -18,5 +18,8 @@ function aeropuerto(){
             }
         }
         verificarHorario()
+
+        const intervalo = setInterval(verificarHorario, 60000)
+        return () => clearInterval(intervalo)
     })
 }
