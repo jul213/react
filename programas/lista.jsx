@@ -8,7 +8,7 @@ function Garage(){
         <>
             <h1>who cars in my garage?</h1>
             <ul>
-                
+                {cars.map((car) => <Car brand={car} />)}
             </ul>
         </>
     )
