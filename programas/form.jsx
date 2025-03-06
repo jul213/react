@@ -4,4 +4,10 @@ import ReactDOM from "react-dom/client";
 
 function myForm(){
     const [name, setName] = useState("");
+
+    return (
+        <form>
+            
+        </form>
+    )
 }
