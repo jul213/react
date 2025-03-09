@@ -36,7 +36,7 @@ function MyFormT(){
 
         return (
             <form onSubmit={handleSubmit}>
-              <textarea value={textarea}></textarea>
+              <textarea value={textarea} onChange={handleChange}></textarea>
             </form>
         )
 }
