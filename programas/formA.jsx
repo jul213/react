@@ -12,7 +12,9 @@ function MyForm(){
         return (
             <form onSubmit={handleSubmit}>
                 <label>Ingresa tu nombre: 
-                    <input type="text" />
+                    <input type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)} />
                 </label>
             </form>
         )
