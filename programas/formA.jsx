@@ -6,6 +6,6 @@ function MyForm(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert(`el nombre que ingresaste es: `)
+        alert(`el nombre que ingresaste es: ${name}`)
         }
 }
