@@ -28,11 +28,10 @@ root.render(<MyForm />);
 
 
 function MyFormT(){
-    const [textarea, setTextArea] = useState("");
+    const [textarea, setTextArea] = useState("BUENAS");
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        alert(`el nombre que ingresaste es: ${name}`)
+    const handleChange = (event) => {
+        setTextArea(event.target.value)
         }
 
         return (
