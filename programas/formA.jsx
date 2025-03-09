@@ -8,4 +8,10 @@ function MyForm(){
         event.preventDefault();
         alert(`el nombre que ingresaste es: ${name}`)
         }
+
+        return (
+            <form onSubmit={handleSubmit}>
+                
+            </form>
+        )
 }
