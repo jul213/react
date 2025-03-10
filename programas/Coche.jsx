@@ -1,14 +1,14 @@
-class Car extends React.Component{
+function Sofia(props){
+    return  <h1>sofia es {props.name} </h1>
+ }
 
-     Sofia(props){
-       return  <h1>sofia es {props} </h1>
-    }
+class Car extends React.Component{
 
     render(){
         return (
 
         <>
-            {this.Sofia({name: "osita dormilona"})}
+           <Sofia name="osita" />
         </>
         )
     }
