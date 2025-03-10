@@ -14,4 +14,4 @@ class Car extends React.Component{
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+root.render(<Car />)
