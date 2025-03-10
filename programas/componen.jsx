@@ -1,11 +1,11 @@
-class kizi extends React.Component{
+class Kizi extends React.Component{
     render(){
         return <h1>buenas soy kizi le deseo un buen dia</h1>
     }
 }
 
 
-class lol extends React.Component{
+class Lol extends React.Component{
     render(){
         return(
         <div>
