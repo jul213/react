@@ -6,7 +6,7 @@ class Hola extends React.Component{
     }
 
     render(){
-        
+        return <h2>el hola es de color {this.state.color} </h2>
     }
     
 }
