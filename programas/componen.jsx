@@ -6,5 +6,9 @@ class kizi extends React.Component{
 
 
 class lol extends React.Component{
-    
+    render(){
+        <div>
+            <h1>desde la clase lol invoco a la clase kizi: </h1>
+        </div>
+    }
 }
