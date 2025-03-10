@@ -8,7 +8,7 @@ class Car extends React.Component{
         return (
 
         <>
-            <Sofia name="Osita comelona"/>
+            {this.Sofia({name: "osita dormilona"})}
         </>
         )
     }
