@@ -3,3 +3,8 @@ class kizi extends React.Component{
         return <h1>buenas soy kizi le deseo un buen dia</h1>
     }
 }
+
+
+class lol extends React.Component{
+    
+}
