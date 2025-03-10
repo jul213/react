@@ -1,1 +1,3 @@
-class 
+class Hola extends React.Component{
+    
+}
