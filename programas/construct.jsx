@@ -5,5 +5,8 @@ class Hola extends React.Component{
         this.state={color: "blue"}
     }
 
+    render(){
+        
+    }
     
 }
