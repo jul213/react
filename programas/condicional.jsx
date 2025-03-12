@@ -29,3 +29,8 @@ function Goal(props){
 
 const root1 = ReactDOM.createRoot(document.getElementById("root"));
 root1.render(<Goal isGoal={true} />)
+
+
+function Car(props){
+    return <li>yo soy un {props.brand} </li>
+}
