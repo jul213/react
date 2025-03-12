@@ -13,3 +13,4 @@ function pepe(props){
 }
 
 const cars = ["ford", "bmw", "audi"];
+const root = ReactDOM.createRoot(document.getElementById("root"))
