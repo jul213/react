@@ -34,3 +34,7 @@ root1.render(<Goal isGoal={true} />)
 function Car(props){
     return <li>yo soy un {props.brand} </li>
 }
+
+function Coleccion(){
+    
+}
