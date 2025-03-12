@@ -46,7 +46,7 @@ function Coleccion(){
         <>
             <h1>quien esta en el garage? </h1>
             <ul>
-                {cars.map((car) => <Car key={car.id} brand={car.brand} />}
+                {cars.map((car) => <Car key={car.id} brand={car.brand}/>)}
             </ul>
         </>
     )
