@@ -15,3 +15,9 @@ function Pepe(props){
 const cars = ["ford", "bmw", "audi"];
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(<Pepe cars={cars} />)
+
+
+
+function Goal(props){
+    const isGoal = props.isGoal
+}
