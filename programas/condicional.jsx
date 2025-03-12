@@ -51,3 +51,5 @@ function Coleccion(){
         </>
     )
 }
+
+const root2 = ReactDOM.createRoot(document.getElementById("root"));
