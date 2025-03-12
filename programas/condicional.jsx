@@ -1,4 +1,4 @@
-function pepe(props){
+function Pepe(props){
     const cars = props.cars;
     return (
         <>
@@ -14,4 +14,4 @@ function pepe(props){
 
 const cars = ["ford", "bmw", "audi"];
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<pepe cars={cars} />)
+root.render(<Pepe cars={cars} />)
