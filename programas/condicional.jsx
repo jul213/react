@@ -36,5 +36,9 @@ function Car(props){
 }
 
 function Coleccion(){
-    
+    const cars = [
+        {id: 1, brand: "FORD"},
+        {id: 2, brand: "BMW"},
+        {id: 3, brand: "AUDI"}
+    ];
 }
