@@ -21,6 +21,8 @@ root.render(<Pepe cars={cars} />)
 function Goal(props){
     const isGoal = props.isGoal
     return(
-        
+        <>
+        {isGoal ? <MadeGoal /> : <MissedGoal/>}
+        </>
     )
 }
