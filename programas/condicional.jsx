@@ -41,4 +41,13 @@ function Coleccion(){
         {id: 2, brand: "BMW"},
         {id: 3, brand: "AUDI"}
     ];
+
+    return (
+        <>
+            <h1>quien esta en el garage? </h1>
+            <ul>
+                {cars.map((car) => <Car key={car.id} brand={car.brand} />}
+            </ul>
+        </>
+    )
 }
