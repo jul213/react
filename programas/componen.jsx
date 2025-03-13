@@ -14,7 +14,7 @@ function Form(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert("Datos del formulario: /n" + JSON.stringify(inputs, null, 2));
+        alert("Datos del formulario: \n" + JSON.stringify(inputs, null, 2));
     }
 
     return (
