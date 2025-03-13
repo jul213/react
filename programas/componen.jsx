@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ReactDOM from "react-dom/client";
 
-function form(){
+function Form(){
 
     const [inputs, setInputs] = useState({});
 
