@@ -14,7 +14,7 @@ function Form(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert(inputs);
+        alert(JSON.stringify(inputs, null, 2));
     }
 
     return (
