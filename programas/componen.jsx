@@ -14,7 +14,7 @@ function Form(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert(JSON.stringify(inputs, null, 2));
+        alert("Datos del formulario: /n" + JSON.stringify(inputs, null, 2));
     }
 
     return (
@@ -25,7 +25,7 @@ function Form(){
                 value={inputs.username || ""}
                 onChange={handleChange}/>
             </label>
-
+            <br />
             <label>Ingresa tu edad: 
                 <input type="number" 
                 name="age"
