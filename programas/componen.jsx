@@ -25,6 +25,15 @@ function form(){
                 value={inputs.username || ""}
                 onChange={handleChange}/>
             </label>
+
+            <label>Ingresa tu edad: 
+                <input type="number" 
+                name="age"
+                value={inputs.age || ""}
+                onChange={handleChange}/>
+            </label>
+
+            <input type="submit"/> 
         </form>
     )
 }
