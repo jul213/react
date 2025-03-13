@@ -32,8 +32,8 @@ function Form(){
                 value={inputs.age || ""}
                 onChange={handleChange}/>
             </label>
-
-            <input type="submit"/> 
+            <br />
+            <button type="submit">Enviar</button>
         </form>
     )
 }
