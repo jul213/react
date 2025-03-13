@@ -19,7 +19,12 @@ function form(){
 
     return (
         <form onSubmit={handleSubmit}>
-            
+            <label>Ingresa tu nombre: 
+                <input type="text" 
+                name="username"
+                value={inputs.username || ""}
+                onChange={handleChange}/>
+            </label>
         </form>
     )
 }
