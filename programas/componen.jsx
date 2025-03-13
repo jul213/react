@@ -16,4 +16,10 @@ function form(){
         event.preventDefault();
         alert(inputs);
     }
+
+    return (
+        <form onSubmit={handleSubmit}>
+            
+        </form>
+    )
 }
