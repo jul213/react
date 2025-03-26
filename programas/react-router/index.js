@@ -10,8 +10,10 @@ export default function App(){
     return (
         <BrowseRouter>
             <Routes>
-                <Route path="/" element={<Layout/>}
-                
+                <Route path="/" element={<Layout/>}>
+                <Route index element={<Home/>} />
+                <Route path="/" element={<Layout/>} />
+                </Route>
             </Routes>
         </BrowseRouter>
     )
