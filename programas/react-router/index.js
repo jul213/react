@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM, { createRoot } from "react-dom/client";
 import {BrowseRouter, Routes, Route} from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home";
@@ -19,5 +19,10 @@ export default function App(){
                 </Route>
             </Routes>
         </BrowseRouter>
+
+
     )
 }
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
