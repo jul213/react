@@ -5,3 +5,14 @@ import Home from "./Home";
 import Blogs from "./Blogs";
 import Contact from "./Contact";
 import NoPage from "./NoPage";
+
+export default function App(){
+    return (
+        <BrowseRouter>
+            <Routes>
+                <Route path="/" element={<Layout/>}
+                
+            </Routes>
+        </BrowseRouter>
+    )
+}
