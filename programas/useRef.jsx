@@ -18,5 +18,6 @@ function App(){
             onChange={(e)=> setInputValue(e.target.value)}/>
         </>
             <h2>el valor es: {inputValue}</h2>
+             <h2>el valor previo es: {previousInputValue}</h2>
     )
 }
