@@ -9,4 +9,4 @@ repositorio de practica y configuraccion inicial de react entrenamiento para apr
 
 ***
 
-!(https://imgs.search.brave.com/3xPR2RLCeiM3XgdimrVB6rUpdaznwbZmuvjyIJ6_nYI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/LmduYXJ1c3VzZXJj/b250ZW50LmNvbS5i/ci82LzU2MTA1My85/MTkxMmYxZi02ZmUy/LTQyMjUtYTAyZC1k/YmZjYzZkOTk3Y2Yu/cG5n)[imagen de react]
+![https://app.aluracursos.com/forum/topico-react-no-me-muestra-las-fotos-que-coloco-219651]
