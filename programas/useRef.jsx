@@ -17,5 +17,6 @@ function App(){
             value={inputValue}
             onChange={(e)=> setInputValue(e.target.value)}/>
         </>
+            <h2>el valor es: {inputValue}</h2>
     )
 }
