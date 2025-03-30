@@ -21,3 +21,5 @@ function App(){
              <h2>el valor previo es: {previousInputValue}</h2>
     )
 }
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
