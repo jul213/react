@@ -17,3 +17,9 @@ const initialTodos = [
 ];
 
 
+const reducer = (state, action) => {
+    switch(action.type){
+        case "COMPLETE":
+            
+    }
+}
