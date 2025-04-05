@@ -31,3 +31,11 @@ const reducer = (state, action) => {
             return state
     }
 }
+
+function Todos(){
+    const [todos, dispatch] = useReducer(reducer,initialTodos);
+
+    const handleComplete = (todo) => {
+        dispatch({type: "COMPLETE", id: todo.id})
+    }
+}
